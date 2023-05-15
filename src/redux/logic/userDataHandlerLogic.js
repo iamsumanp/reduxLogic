@@ -12,7 +12,6 @@ const getJsonData = createLogic({
 
   warnTimeout: 0,
   process({ action }) {
-    // console.log(action.type);
     console.log("started process with action types" + action.type);
     console.log("started process with action types" + action.payload);
 
